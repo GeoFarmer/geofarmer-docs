@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://GeoFarmer.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/geofarmer_docs/',
+  baseUrl: '/geofarmer-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'GeoFarmer', // Usually your GitHub org/user name.
-  projectName: 'geofarmer_docs', // Usually your repo name.
+  projectName: 'geofarmer-docs', // Usually your repo name.
 
 
   deploymentBranch: "gh-pages",

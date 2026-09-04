@@ -22,6 +22,8 @@ const sidebars: SidebarsConfig = {
         'architecture',
         'architecture-level-1-system-context',
         'architecture-level-2-containers',
+        'architecture-modules-and-delivery',
+        'architecture-environments-and-hosting',
       ],
     },
     {
