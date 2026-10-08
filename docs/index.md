@@ -5,7 +5,26 @@ title: Overview
 
 # GeoFarmer Documentation
 
-Technical documentation for the GeoFarmer platform.
+Architecture documentation and usage guides for the GeoFarmer platform.
+
+## Core
+
+- **Architecture:** [host applications](./architecture-core.md),
+  [channel hierarchy](./architecture-core-channel-hierarchy.md) and
+  [place membership API](./architecture-core-place-memberships.md).
+- **Usage:** [channel settings](./usage-core-channel-settings.md) and
+  [place memberships](./usage-core-place-memberships.md).
+- **Operations:** [local development](./operations-core-development.md) and
+  [identity provider](./operations-core-identity.md).
+
+## Platform and Surveys
+
+- **Architecture:** [platform overview](./architecture.md),
+  [Surveys design](./architecture-surveys.md),
+  [Surveys operations](./architecture-surveys-operations.md) and
+  [compatibility / remaining work](./architecture-surveys-compatibility.md).
+- **Usage:** [create and publish surveys](./usage-surveys-authoring.md),
+  then [review results and export responses](./usage-surveys-results.md).
 
 ## Docusaurus Examples
 

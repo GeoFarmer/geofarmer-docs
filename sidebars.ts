@@ -24,7 +24,38 @@ const sidebars: SidebarsConfig = {
         'architecture-level-2-containers',
         'architecture-modules-and-delivery',
         'architecture-environments-and-hosting',
+        {
+          type: 'category',
+          label: 'Core',
+          items: ['architecture-core', 'architecture-core-channel-hierarchy', 'architecture-core-place-memberships', 'architecture-core-geographic-data'],
+        },
+        {
+          type: 'category',
+          label: 'Surveys',
+          items: ['architecture-surveys', 'architecture-surveys-operations', 'architecture-surveys-compatibility'],
+        },
       ],
+    },
+    {
+      type: 'category',
+      label: 'USAGE',
+      items: [
+        {
+          type: 'category',
+          label: 'Core',
+          items: ['usage-core-channel-settings', 'usage-core-place-memberships'],
+        },
+        {
+          type: 'category',
+          label: 'Surveys',
+          items: ['usage-surveys-authoring', 'usage-surveys-results'],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'OPERATIONS',
+      items: ['operations-core-development', 'operations-core-identity'],
     },
     {
       type: 'category',

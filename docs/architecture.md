@@ -12,3 +12,7 @@ deployment decisions:
 - [Level 2: Containers](./architecture-level-2-containers.md)
 - [Modules, build profiles, and delivery](./architecture-modules-and-delivery.md)
 - [Environments and hosting](./architecture-environments-and-hosting.md)
+
+- [Surveys architecture](./architecture-surveys.md)
+
+- [Core architecture and domain contracts](./architecture-core.md)

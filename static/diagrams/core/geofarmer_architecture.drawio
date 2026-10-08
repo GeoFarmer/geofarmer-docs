@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="msr7Z76ghOwuHuPJv8qy">
+    <mxGraphModel dx="3393" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jWrKG7XPmX71d26bOgBc-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Kubernetes" vertex="1">
+          <mxGeometry height="460" width="890" x="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-2" parent="jWrKG7XPmX71d26bOgBc-1" style="swimlane;whiteSpace=wrap;html=1;" value="IDP(KeyCloak)" vertex="1">
+          <mxGeometry height="60" width="200" x="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-4" parent="jWrKG7XPmX71d26bOgBc-1" style="swimlane;whiteSpace=wrap;html=1;" value="RDS Proxy" vertex="1">
+          <mxGeometry height="35" width="200" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-5" parent="jWrKG7XPmX71d26bOgBc-1" style="swimlane;whiteSpace=wrap;html=1;" value="Resource Server (Laravel)" vertex="1">
+          <mxGeometry height="150" width="380" x="470" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-7" parent="jWrKG7XPmX71d26bOgBc-5" style="swimlane;whiteSpace=wrap;html=1;" value="MyFarmTrees" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-6" parent="jWrKG7XPmX71d26bOgBc-5" style="swimlane;whiteSpace=wrap;html=1;" value="MyGeoFarm" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-8" parent="jWrKG7XPmX71d26bOgBc-5" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="GeoFarmer&lt;br&gt;Shared" vertex="1">
+          <mxGeometry height="50" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-10" parent="jWrKG7XPmX71d26bOgBc-1" style="swimlane;whiteSpace=wrap;html=1;" value="Redis" vertex="1">
+          <mxGeometry height="50" width="200" x="20" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-11" parent="jWrKG7XPmX71d26bOgBc-1" style="swimlane;whiteSpace=wrap;html=1;" value="Queue Worker (Laravel)" vertex="1">
+          <mxGeometry height="50" width="200" x="460" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="90" width="200" x="-230" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Docker Container Registry" vertex="1">
+          <mxGeometry height="50" width="200" x="1090" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Queue (SQS)" vertex="1">
+          <mxGeometry height="50" width="200" x="1090" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="File storage (S3)" vertex="1">
+          <mxGeometry height="50" width="200" x="1090" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="File compression (lamda/flask)&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="200" x="1090" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="SMTP" vertex="1">
+          <mxGeometry height="50" width="200" x="-200" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="SMS (Twilio)" vertex="1">
+          <mxGeometry height="50" width="200" x="20" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Management-Dashboard &lt;br&gt;(website)" vertex="1">
+          <mxGeometry height="50" width="205" x="105" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Results-Dashboard (website)" vertex="1">
+          <mxGeometry height="50" width="200" x="105" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-19" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="MFT-Collector &lt;br&gt;(Flutter - Android/PWA)" vertex="1">
+          <mxGeometry height="120" width="200" x="400" y="720" as="geometry">
+            <mxRectangle height="60" width="160" x="410" y="710" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-22" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="MFT-Nursery&lt;br&gt;(Flutter - Android/PWA)" vertex="1">
+          <mxGeometry height="120" width="200" x="640" y="720" as="geometry">
+            <mxRectangle height="60" width="160" x="410" y="710" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-23" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="MFT-Planting&lt;div&gt;(Flutter - Android/PWA)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="870" y="720" as="geometry">
+            <mxRectangle height="60" width="160" x="410" y="710" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="MFT-Audit&lt;div&gt;&lt;div&gt;(Flutter - Android/PWA)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="1090" y="720" as="geometry">
+            <mxRectangle height="60" width="160" x="410" y="710" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" value="MyGeoFarm&lt;div&gt;&lt;div&gt;(Flutter - Android/PWA)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="400" y="860" as="geometry">
+            <mxRectangle height="60" width="160" x="410" y="710" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF8000);" value="Marketplace (website)" vertex="1">
+          <mxGeometry height="50" width="200" x="105" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF8000);startSize=50;" value="Species Wiki&lt;br&gt;&amp;nbsp;(website - MediaWiki?)" vertex="1">
+          <mxGeometry height="70" width="200" x="105" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-28" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=60;fillColor=light-dark(#FFFFFF,#FF8000);" value="BlockChain (Etherium Besu??)" vertex="1">
+          <mxGeometry height="90" width="200" x="1120" y="910" as="geometry">
+            <mxRectangle height="60" width="160" x="410" y="710" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-29" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="WAF (Firewall)" vertex="1">
+          <mxGeometry height="50" width="200" x="460" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-30" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Docs" vertex="1">
+          <mxGeometry height="35" width="200" x="-170" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="jWrKG7XPmX71d26bOgBc-31" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Monitoring" vertex="1">
+          <mxGeometry height="35" width="200" x="-95" y="555" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
